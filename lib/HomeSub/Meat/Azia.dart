@@ -190,44 +190,48 @@ class _AziaChickenState extends State<AziaChicken> {
         SizedBox(height: MediaQuery.of(context).size.height*.03,),   
 
         Container(
+          //margin: const EdgeInsets.only(left: 15.0, right: 15.0), 
           //height: MediaQuery.of(context).size.height*.3,
           color: Colors.grey[100],
-          child: Column(children: [
-            SizedBox(height: MediaQuery.of(context).size.height*.05,),
-                  Container(
-                    padding: EdgeInsets.fromLTRB(25, 0, 25, 0),
-                    child: Divider(color: Colors.black,)),
-            SizedBox(height: MediaQuery.of(context).size.height*.03,),      
-
-            RichText(text: TextSpan(text: 'Azia Halal Chicken and Meat Shop',style: 
-            TextStyle(
-              color: Colors.black,
-              fontSize: 20,
-              fontWeight: FontWeight.bold
-            )
-            ),),
-
-            SizedBox(height: MediaQuery.of(context).size.height*.01,),   
-
-            Row(
+          child: Align(alignment: Alignment.centerLeft,
+                      child: Column(
               children: [
-                SizedBox(width: MediaQuery.of(context).size.width*.05,),   
+              SizedBox(height: MediaQuery.of(context).size.height*.05,),
+                    Container(
+                      padding: EdgeInsets.fromLTRB(25, 0, 25, 0),
+                      child: Divider(color: Colors.black,)),
+              SizedBox(height: MediaQuery.of(context).size.height*.03,),      
 
-                Icon(Icons.location_pin),
+              RichText(text: TextSpan(text: 'Azia Halal Chicken and Meat Shop',style: 
+              TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontWeight: FontWeight.bold
+              )
+              ),),
 
-                RichText(text: TextSpan(text: 'Azia Halal Chicken and Meat Shop\n Kazhakuttam',style: 
-                TextStyle(
-                  color: Colors.black,
-                  fontSize: 16,
-                  
-                )
-                ),),
-              ],
+              SizedBox(height: MediaQuery.of(context).size.height*.01,),   
 
-            ),
-            SizedBox(height: MediaQuery.of(context).size.height*.03,),   
+              Row(
+                children: [
+                  SizedBox(width: MediaQuery.of(context).size.width*.06,),   
 
-          ],),
+                  Icon(Icons.location_pin),
+
+                  RichText(text: TextSpan(text: 'Azia Halal Chicken and Meat Shop\n Kazhakuttam',style: 
+                  TextStyle(
+                    color: Colors.black,
+                    fontSize: 16,
+                    
+                  )
+                  ),),
+                ],
+
+              ),
+              SizedBox(height: MediaQuery.of(context).size.height*.03,),   
+
+            ],),
+          ),
         )
 
         

@@ -186,47 +186,49 @@ class _HalalMeatBoxState extends State<HalalMeatBox> {
         Container(
           //height: MediaQuery.of(context).size.height*.3,
           color: Colors.grey[100],
-          child: Column(children: [
-            SizedBox(height: MediaQuery.of(context).size.height*.05,),
-                  Container(
-                    padding: EdgeInsets.fromLTRB(25, 0, 25, 0),
-                    child: Divider(color: Colors.black,)),
-            SizedBox(height: MediaQuery.of(context).size.height*.03,),      
+          child: Align(alignment: Alignment.center,
+                      child: Column(children: [
+              SizedBox(height: MediaQuery.of(context).size.height*.05,),
+                    Container(
+                      padding: EdgeInsets.fromLTRB(25, 0, 25, 0),
+                      child: Divider(color: Colors.black,)),
+              SizedBox(height: MediaQuery.of(context).size.height*.03,),      
 
-            Row(
-              children: [
-                SizedBox(width: MediaQuery.of(context).size.width*.08,),   
-                RichText(text: TextSpan(text: 'Halal Meat Box',style: 
-                TextStyle(
-                  color: Colors.black,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold
-                )
-                ),),
-              ],
-            ),
+              Row(
+                children: [
+                  SizedBox(width: MediaQuery.of(context).size.width*.06,),   
+                  RichText(text: TextSpan(text: 'Halal Meat Box',style: 
+                  TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold
+                  )
+                  ),),
+                ],
+              ),
 
-            SizedBox(height: MediaQuery.of(context).size.height*.01,),   
+              SizedBox(height: MediaQuery.of(context).size.height*.01,),   
 
-            Row(
-              children: [
-                SizedBox(width: MediaQuery.of(context).size.width*.05,),   
+              Row(
+                children: [
+                  SizedBox(width: MediaQuery.of(context).size.width*.06,),   
 
-                Icon(Icons.location_pin),
+                  Icon(Icons.location_pin),
 
-                RichText(text: TextSpan(text: 'Halal Meat Box Attingal Trivandrum',style: 
-                TextStyle(
-                  color: Colors.black,
-                  fontSize: 16,
-                  
-                )
-                ),),
-              ],
+                  RichText(text: TextSpan(text: 'Halal Meat Box Attingal Trivandrum',style: 
+                  TextStyle(
+                    color: Colors.black,
+                    fontSize: 16,
+                    
+                  )
+                  ),),
+                ],
 
-            ),
-            SizedBox(height: MediaQuery.of(context).size.height*.03,),   
+              ),
+              SizedBox(height: MediaQuery.of(context).size.height*.03,),   
 
-          ],),
+            ],),
+          ),
         )
 
         

@@ -32,12 +32,13 @@ dependencies:
   geocoder: ^0.2.1
   form_field_validator: ^1.0.1
   font_awesome_flutter: ^8.11.0
-  expandable_text: 1.2.0
+  expandable_text: ^1.2.0
   expandable: ^4.1.4
   imagebutton: ^0.0.6
   dotted_line: ^2.0.2
   number_inc_dec: ^0.6.6
   vertical_tabs: ^0.2.0
+  url_launcher: ^4.0.3
   
   
   
@@ -51,6 +52,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Home/Splash.jpg"
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

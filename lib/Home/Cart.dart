@@ -1,6 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:FoodDelivery/Home/HomeMain.dart';
+
 
 
 class Cart extends StatefulWidget {
@@ -49,8 +51,14 @@ class _CartState extends State<Cart> {
 
                   FlatButton(
                     onPressed: (){
+                    
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => HomeMain()));
+              },
 
-                    },
+                    
                      shape: RoundedRectangleBorder(side: BorderSide(
                     color: Color(0xff550d0e),
                     width: 1,

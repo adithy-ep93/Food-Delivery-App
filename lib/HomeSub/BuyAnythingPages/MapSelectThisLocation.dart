@@ -169,32 +169,29 @@ class _MapSelectThisLocationState extends State<MapSelectThisLocation> {
                                     ),
                                   ],
                                 ),
-                              SizedBox(
-                                  width: MediaQuery.of(context).size.width * .08,
+                                SizedBox(
+                                  width:
+                                      MediaQuery.of(context).size.width * .08,
                                 ),
-                              IconButton(
+                                IconButton(
                                   icon: FaIcon(FontAwesomeIcons.bullhorn),
                                   onPressed: () {},
                                   iconSize: 20.0,
-                                  color:  Color(0xff550d0e),
+                                  color: Color(0xff550d0e),
                                 ),
                                 SizedBox(
-                                  width: MediaQuery.of(context).size.width * .01,
+                                  width:
+                                      MediaQuery.of(context).size.width * .01,
                                 ),
-                             
-                             
-                             
-                             
                               ],
-
                             ),
                           ],
                         ),
                       ),
-
                     ],
                   ),
-                  Container(                        margin: const EdgeInsets.only(left: 15.0, right: 15.0),
+                  Container(
+                    margin: const EdgeInsets.only(left: 15.0, right: 15.0),
                     child: Row(
                       children: [
                         SizedBox(
@@ -263,8 +260,7 @@ class _MapSelectThisLocationState extends State<MapSelectThisLocation> {
                     child: TextFormField(
                       //controller: passTextController,
                       decoration: new InputDecoration(
-                          labelText:
-                              "STORE NAME",
+                          labelText: "STORE NAME",
                           hintStyle:
                               TextStyle(fontSize: 12.0, color: Colors.black87),
                           enabledBorder: UnderlineInputBorder(
@@ -272,7 +268,9 @@ class _MapSelectThisLocationState extends State<MapSelectThisLocation> {
                             //  when the TextFormField in unfocused
                           ),
                           focusedBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color:  Color(0xff550d0e),),
+                            borderSide: BorderSide(
+                              color: Color(0xff550d0e),
+                            ),
                             //  when the TextFormField in focused
                           ),
                           border: UnderlineInputBorder()),
@@ -299,7 +297,9 @@ class _MapSelectThisLocationState extends State<MapSelectThisLocation> {
                             //  when the TextFormField in unfocused
                           ),
                           focusedBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color:  Color(0xff550d0e),),
+                            borderSide: BorderSide(
+                              color: Color(0xff550d0e),
+                            ),
                             //  when the TextFormField in focused
                           ),
                           border: UnderlineInputBorder()),

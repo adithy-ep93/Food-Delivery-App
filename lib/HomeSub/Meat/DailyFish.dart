@@ -209,7 +209,7 @@ class _DailyFishState extends State<DailyFish> {
 
             Row(
               children: [
-                SizedBox(width: MediaQuery.of(context).size.width*.05,),   
+                SizedBox(width: MediaQuery.of(context).size.width*.06,),   
 
                 Icon(Icons.location_pin),
 

@@ -211,14 +211,14 @@ class _SubWayState extends State<SubWay> {
                       fontWeight: FontWeight.bold,
                       fontSize: 24
                     ),),
-                    SizedBox(width: MediaQuery.of(context).size.width*.2,),
+                    SizedBox(width: MediaQuery.of(context).size.width*.26,),
                     Column(children: [
                       Text('Average from',
                       style: TextStyle(
              
               fontSize: 12
             ),),
-                      Text('100+ rating',
+                      Text('   100+ rating',
                       style: TextStyle(
              
               fontSize: 12
